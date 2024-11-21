@@ -1,0 +1,1 @@
+SELECT * FROM hr_analytics_dev.emp_details
