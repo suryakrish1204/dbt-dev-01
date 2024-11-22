@@ -1,0 +1,13 @@
+seeds:
+  - name: country_lookup
+    config:
+      column_types:
+        country: string
+        country_code: string
+      header: true
+      delimiter: ','
+      full_refresh: true
+      
+
+      
+
