@@ -1,0 +1,9 @@
+sources:
+  - name: gcp_dev
+    database: gcp-bg-dbt-dev
+    schema: hr_analytics_dev
+    tables:
+      - name: emp_details
+      - name: emp_address
+      - name: phone_country_lookup
+      - name: country_code_lookup

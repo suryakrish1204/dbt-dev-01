@@ -7,7 +7,20 @@ seeds:
       header: true
       delimiter: ','
       full_refresh: true
-      
+      quote_columns: false
+
+  - name: phone_code
+    description: "country with respective phone code"
+    config:
+      column_types:
+        country: string
+        phonecode: string
+      quote_columns: true
+      header: true
+      full_refresh: true
+      delimiter: '|'
+      alias: "phone_codes_lookup"
+      column_space: true
 
       
 
